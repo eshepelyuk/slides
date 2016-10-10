@@ -1,0 +1,31 @@
+= Title Slide
+:backend: revealjs
+:revealjs_theme: solarized
+:source-highlighter: coderay
+
+== Slide One
+
+* Foo
+* Bar
+* World
+
+== Slide Two
+
+[source, language="perl"]
+----
+print "$0: hello world\n"
+----
+
+== Slide Three
+
+[plantuml, diagram-classes, png]     
+....
+class BlockProcessor
+class DiagramBlock
+class DitaaBlock
+class PlantUmlBlock
+
+BlockProcessor <|-- DiagramBlock
+DiagramBlock <|-- DitaaBlock
+DiagramBlock <|-- PlantUmlBlock
+....
